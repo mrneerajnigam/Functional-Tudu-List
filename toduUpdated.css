@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header , main{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+body{
+    background-image: linear-gradient(45deg, rgb(109, 135, 250),rgb(183, 240, 77));
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: tahoma;
+}
+header > h1 {
+    margin: 15px 0;
+    width: 40vw;
+    margin-left: 31%;
+    border: 3px solid black;
+    color: rgb(214, 18, 188);
+    background-color: rgb(221, 226, 221);
+
+}
+.text{
+    height: 20px;
+    width: 250px;
+}
+.btn{
+    height: 20px;
+    width: 100px;
+}
+input{
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#new-task-submit{
+    background-color: rgb(236, 12, 206);
+    color: cornsilk;
+}
+
+#new-task-submit:hover{
+    cursor: pointer;
+}
